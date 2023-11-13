@@ -22,12 +22,10 @@
         android:layout_below="@+id/app_logo"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
-        android:layout_marginleft="20dp"
+        android:layout_marginLeft="20dp"
         android:paddingLeft="13dp"
-
         android:hint="Email"
         android:background="@drawable/edt_background"
-
         />
 
     <EditText
@@ -36,6 +34,7 @@
         android:layout_height="50dp"
         android:layout_below="@+id/edt_email"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:hint="Password"
         android:background="@drawable/edt_background"
