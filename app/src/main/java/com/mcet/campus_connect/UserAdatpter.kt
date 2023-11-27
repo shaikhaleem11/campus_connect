@@ -24,7 +24,7 @@ class UserAdatpter(val context: Context,val userList: ArrayList<user> ):
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
 
         val currentUser =userList[position]
-        holder.textName.text =currentUser.name
+        holder.textName. text =currentUser.name
     }
     class UserViewHolder(itemView:View): RecyclerView.ViewHolder(itemView){
          val textName =itemView.findViewById<TextView>(R.id.txt_name)
