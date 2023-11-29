@@ -18,7 +18,7 @@
             android:text="This is sent message"
             android:textColor="@color/white"
             android:padding="10dp"
-            android:textSize="18sp"
+            android:textSize="18sp"/>
     </RelativeLayout>
 
 </RelativeLayout>
