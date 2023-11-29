@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434838327161",
+    "project_id": "mcetconnect",
+    "storage_bucket": "mcetconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434838327161:android:53a67d9033e5709c55a9a8",
+        "android_client_info": {
+          "package_name": "com.mcet.campus_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2bb47ogsmZ0GrR6_goObKgiLTPnzYmyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
