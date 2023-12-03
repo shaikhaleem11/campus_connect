@@ -1,7 +1,6 @@
 package com.mcet.campus_connect
 
 import android.os.Bundle
-import android.os.Message
 import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
