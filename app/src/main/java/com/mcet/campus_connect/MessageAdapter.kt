@@ -1,17 +1,18 @@
 package com.mcet.campus_connect
 
 import android.content.Context
+import android.os.Message
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 
-class MessageAdapter(val context: Context, val messageList: ArrayList<Message> ) :
-    RecyclerView.Adapter<ViewHolder>() {
+
+class MessageAdapter(val context: Context, val messageList: ArrayList< Message>) :
+    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     val ITEM_RECEIVE =1
     val ITEM_SENT = 2
